@@ -1,0 +1,55 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+$primary: #c00d3e;
+$secondary: #f3cfd9;
+$tertiary: #333333;
+
+$lead-font-size:              $font-size-base * 1.25;
+$lead-font-weight:            300;
+
+$small-font-size:             .875em;
+
+$sub-sup-font-size:           .75em;
+
+$text-muted:                  $gray-600;
+
+$initialism-font-size:        $small-font-size;
+
+$blockquote-margin-y:         $spacer;
+$blockquote-font-size:        $font-size-base * 1.25;
+$blockquote-footer-color:     $gray-600;
+$blockquote-footer-font-size: $small-font-size;
+
+$hr-margin-y:                 $spacer;
+$hr-color:                    inherit;
+$hr-height:                   $border-width;
+$hr-opacity:                  .25;
+
+$legend-margin-bottom:        .5rem;
+$legend-font-size:            1.5rem;
+$legend-font-weight:          null;
+
+$mark-padding:                .2em;
+
+$dt-font-weight:              $font-weight-bold;
+
+$nested-kbd-font-weight:      $font-weight-bold;
+
+$list-inline-padding:         .5rem;
+
+$mark-bg:                     #fcf8e3;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: "CircularStd-Book";
+    src: url(fonts/CircularStd-Book.otf);
+}
+
+:root{
+    --bs-body-font-family: "CircularStd-Book";
+}
+
+// Then add additional custom code here
